@@ -1,0 +1,9 @@
+a = int(input("Give value of a: "))
+b = int(input("Give value of b: "))
+print(f"Value of a={a}")
+print(f"Value of b={b}")
+c=a
+a=b
+b=c
+print(f"Value of a={a}")
+print(f"Value of b={b}")
