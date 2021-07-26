@@ -5,6 +5,7 @@ vals = [1,3,2,4,7]
 
 print(vals)
 vals.append(6)
+vals.append(88)
 print(vals)
 vals.append(5)
 vals.sort()
@@ -16,6 +17,7 @@ typeA = type(a)
 print(a.upper())
 print(a.replace("World", "Hello"))
 print(typeA)
+print("type of typeA: ",type(typeA))
 if typeA == "<class 'str'>":
     print("It is String")
 else:
