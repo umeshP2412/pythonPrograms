@@ -25,4 +25,11 @@ else:
 
 name = "Umesh"
 name2 = "Sagar"
-print(("This is {} And he is good boy {}").format(name, name2))
+#print(("This is {} And he is good boy {}").format(name, name2))
+
+l = len(name)
+print(l)
+print(range(l))
+for i in range(l):
+    print(i, end='')
+    print(name[i])

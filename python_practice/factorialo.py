@@ -6,11 +6,12 @@ m=1
 for j in l:
     m = j*m
 
-#print(m)
+print(m)
 
 n = [int(h) for h in str(m)]
-#print(n)
+print(n)
 n.reverse()
+print(n)
 c=0
 for k in n:
     p = int(k)

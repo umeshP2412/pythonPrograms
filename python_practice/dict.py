@@ -6,6 +6,7 @@ thisdict = {
 print(thisdict)
 #change value
 thisdict["year"]=2020
+print(thisdict["model"])
 print(thisdict)
 
 #update value
