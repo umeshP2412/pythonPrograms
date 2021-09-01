@@ -8,6 +8,7 @@ def search(list,n):
     return False, p
 a=[]
 
+#take input value(by give value then hit 'enter') till you get blank value (a 'enter' withput input)
 while True:
     l = input("")
     if l == "":
